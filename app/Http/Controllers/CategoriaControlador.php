@@ -15,9 +15,12 @@ class CategoriaControlador extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct(){
+        $this->middleware('auth');
+    }
     public function index(Request $request)
     {
-        $categorie = Categoria::name($request->get('name'))->orderBy('nombreCategoria', 'DESC')->paginate(7);
+        $categorie = Categoria::name($request->get('name'))->orderBy('nombreCategoria', 'DESC')->paginate(6);
 
         return view ('admin/categoria/index', compact('categorie'));
         //return view('admin/admin');
@@ -78,10 +81,10 @@ class CategoriaControlador extends Controller
      */
     public function update(Request $request, $id)
     {
-        /*$categoria = Categoria::find($id);
+        $categoria = Categoria::find($id);
         $categoria->nombreCategoria = $request['nombreCategoria'];
         $categoria->save();
-        return redirect('admin/categoria')->with('message','edit');*/
+        return redirect('admin/categoria')->with('message','edit');
     }
 
     /**
@@ -92,7 +95,5 @@ class CategoriaControlador extends Controller
      */
     public function destroy($id)
     {
-        /*$categoria = Categoria::find($id);
-        $categoria = delete();*/
     }
 }

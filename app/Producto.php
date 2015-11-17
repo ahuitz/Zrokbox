@@ -13,11 +13,5 @@ class Producto extends Model
   	protected $fillable = ['nombreProducto','precio','descripcion','idcategoria','idpresentacion'];
 
 
-	public static function ProdCateg(){
-		return DB::table('productos')
-		->join('categorias','categorias.idcategoria','=','productos.idcategoria')						
-		->select('categorias.*','productos.*')
-		->get();
-	} 
 
 }

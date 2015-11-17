@@ -45,22 +45,14 @@
 					   		  			   <img src="images/pi4.jpg" class="img-responsive" alt=""  />
 											
 								              <div class="tab_desc">
-												 <!--ul class="round-top">
-												 	<li><a href="#"><i> </i></a></li>
-												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul-->
-												 
+												 											 
 												 	<div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">ABRILLANTADOR</h6>
-														<!--span class="dollor item_price">$50.00</span-->
+														<h6 class="jean">ABRILLANTADOR</h6>														
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<!--ul class="social">
-															<li><a href="#"><i class="item_add"> </i></a></li>
-															<li><a href="#"><i class="text"> </i></a></li>
-														</ul-->
+														
 														<ul class="social-in">
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
@@ -78,22 +70,14 @@
 										  
 					   		  			   <img src="images/pi3.jpg" class="img-responsive" alt=""/>
 											<div class="tab_desc">
-												 <!--ul class="round-top">
-												 	<li><a href="#"><i> </i></a></li>
-												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul-->
-												 
 												<div class="agency ">
 													<div class="agency-left">
 														<h6 class="jean">SHAMPOO</h6>
-														<!--span class="dollor item_price">$50.00</span-->
+														
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<!--ul class="social">
-															<li><a href="#"><i class="item_add"> </i></a></li>
-															<li><a href="#"><i class="text"> </i></a></li>
-														</ul-->
+													
 														<ul class="social-in">
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
@@ -105,30 +89,19 @@
 													</div>
 												 </div>
 											  </div>
-											  <!--div class="col-in">
-											  	<p>NEW</p>
-											  </div-->
 											 </div>
 											  <div class="img-top simpleCart_shelfItem">
 										  
 					   		  			   <img src="images/pi4.jpg" class="img-responsive" alt=""/>
 											<div class="tab_desc">
-												 <!--ul class="round-top">
-												 	<li><a href="#"><i> </i></a></li>
-												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul-->
 												 
 												 <div class="agency ">
 													<div class="agency-left">
 														<h6 class="jean">ABRILLANTADOR</h6>
-														<!--span class="dollor item_price">$50.00</span-->
+														
 														<div class="clearfix"> </div>
 													</div>
-													<div class="agency-right">
-														<!--ul class="social">
-															<li><a href="#"><i class="item_add"> </i></a></li>
-															<li><a href="#"><i class="text"> </i></a></li>
-														</ul-->
+													<div class="agency-right">														
 														<ul class="social-in">
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
@@ -140,9 +113,6 @@
 													</div>
 												 </div>
 											  </div>
-											 <!--div class="col-in col-in-1">
-											  	<p>SALE <span>30%</span></p>
-											  </div-->
 											</div>
 											<div class="clearfix"></div>
 							     </div>	

@@ -70,9 +70,7 @@ class FrontController extends Controller
      */
     public function edit()
     {
-        /*$catF=Categoria::all();
-        $imag=Imagen::Imagenes();
-        return view ('Forms/contact',compact('catF','imag'));*/
+        
     }
 
     /**

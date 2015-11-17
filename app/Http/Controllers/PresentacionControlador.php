@@ -16,7 +16,7 @@ class PresentacionControlador extends Controller
      */
     public function index(Request $request)
     {
-        $presentation = Presentacion::name($request->get('name'))->orderBy('nombrePresentacion', 'DESC')->paginate(7);                
+        $presentation = Presentacion::name($request->get('name'))->orderBy('nombrePresentacion', 'DESC')->paginate(6);                
         return view('admin/presentacion/index',compact('presentation'));
     }
 

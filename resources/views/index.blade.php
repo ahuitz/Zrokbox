@@ -83,26 +83,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--li ><a  href="404.html">Blog</a></li-->				
 				<li><a  href="{{URL::action('FrontController@create')}}">Productos</a>
 
-				<!--div class="megapanel">
-					<div class="row">
-						<div class=" col-nav">
-							<div class="h_nav">
-								<h4>PRODUCTO NUEVO</h4>
-								<div class="sell">
-									<div class="men">
-										<a href="product.html"><img src="images/pi.jpg" alt="" ></a>
-									</div>
-									<div class="men-in">
-										<h6>Lorem Ipsum</h6>
-										<span>$.60.00</span>
-									</div>
-									<div class="clearfix"> </div>
-								</div>	
-									
-							</div>							
-						</div>
-						</div>
-    				</div-->
 				</li>
 				
 				<li><a  href="{{URL::action('FrontController@edit')}}">Contacto</a>

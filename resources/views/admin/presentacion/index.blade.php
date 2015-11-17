@@ -43,5 +43,6 @@ Vista -> Cuadro para buscar categoria
             </tbody>
             @endforeach
         </table>
+        {!!$presentation->render()!!}
     </div>
 @stop

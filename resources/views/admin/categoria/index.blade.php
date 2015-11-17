@@ -8,6 +8,7 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
   <strong>Operación Exitosa!</strong> Categoria Creada.
 </div>
+
 @endif
 
 
@@ -16,6 +17,7 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
   <strong>Operación Exitosa!</strong> Categoria Actualizada.
 </div>
+
 @endif
 
 
@@ -43,5 +45,6 @@ Vista -> Cuadro para buscar categoria
             </tbody>
             @endforeach
         </table>
+        {!!$categorie->render()!!}
     </div>
 @stop

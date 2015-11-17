@@ -17,9 +17,6 @@ class WelcomeController extends Controller
     public function index()
     {
         //
-        $imag=Imagen::Imagenes();        
-        //return $imag;
-        return view('admin/producto/index',compact('imag'));
     }
 
     /**

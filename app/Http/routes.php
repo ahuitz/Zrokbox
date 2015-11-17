@@ -16,20 +16,19 @@ Route::when('*','csrf', ['post']);
     return view('welcome');
 });
 */
-
-
-Route::get('home','HomeController@index');
-
-
 Route::controllers([
 
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 	]);
 
-//Route::resource('admin/categoria','CategoriaControlador');
-//Route::resource('/','FrontController');
-/*ruta para la pagina de crear producto*/
-//Route::resource('producto','ProductoControlador');
-//Route::resource('admin/presentacion','PresentacionControlador');
-//Route::resource('admin/producto','WelcomeController');
+Route::get('home','HomeController@index');
+Route::resource('/','FrontController');
+
+
+route::group(['middleware'=>'auth'],function(){
+	Route::resource('admin/categoria','CategoriaControlador');
+	Route::resource('producto','ProductoControlador');
+	Route::resource('admin/presentacion','PresentacionControlador');
+	//Route::resource('admin/producto','WelcomeController');
+	});

@@ -85,12 +85,7 @@ class ProductoControlador extends Controller
         $catP=Categoria::lists('nombreCategoria','idcategoria');        
         $presP=Presentacion::lists('nombrePresentacion','idpresentacion');  
         return view('admin/producto/edit',compact('imag','catP','presP'));
-        /*
-        $catP=Categoria::lists('nombre','idcategoria');        
-        $presP=Presentacion::lists('nombre','idpresentacion');
-        return view('admin/producto/edit',['producto'=>$prod,'Categoria'=>$catP,'Presentacion'=>$presP]);*/
-        /*$prod = Producto::find($id);
-        return view('admin/producto/edit', ['presentacion'=>$presentacion]);*/
+        
     }
 
     /**
